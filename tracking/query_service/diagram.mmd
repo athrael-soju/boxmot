@@ -1,0 +1,43 @@
+graph TD
+    A["👤 User Query"] --> B["🏢 Secretary Agent"]
+    
+    B --> C["🔧 Query Optimizer Agent"]
+    B --> D["⚡ Quick Answer Agent"] 
+    B --> E["📚 Librarian Agent"]
+    
+    C --> B
+    D --> F["📄 General Response"]
+    
+    E --> G["🔧 Query Tools"]
+    
+    G --> H["📊 Entity Search"]
+    G --> I["🎞️ Frame Search"]
+    G --> J["🎵 Audio Search"]
+    G --> K["🔗 Relationship Analysis"]
+    G --> L["📈 Temporal Analysis"]
+    G --> M["⚙️ Custom Cypher"]
+    
+    H --> N["💾 Data Access Layer"]
+    I --> N
+    J --> N
+    K --> N
+    L --> N
+    M --> N
+    
+    N --> O["🗄️ Qdrant Vector DB"]
+    N --> P["🕸️ Neo4j Graph DB"]
+    N --> Q["🪣 MinIO Object Storage"]
+    N --> R["🤖 Embedding Models"]
+    
+    E --> S["📊 Data Response"]
+    
+    style A fill:#e1f5fe
+    style B fill:#fff3e0
+    style C fill:#fce4ec
+    style D fill:#e8f5e8
+    style E fill:#f3e5f5
+    style N fill:#fff8e1
+    style O fill:#ffebee
+    style P fill:#e3f2fd
+    style Q fill:#f1f8e9
+    style R fill:#faf4ff
