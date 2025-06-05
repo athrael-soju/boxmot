@@ -1,0 +1,25 @@
+# OpenAI Agents SDK and OpenAI API
+openai-agents>=0.0.1
+openai>=1.0.0
+
+# Vector and embedding models
+sentence-transformers>=2.2.0
+qdrant-client>=1.7.0
+
+# Graph database
+neo4j>=5.0.0
+
+# Environment and utilities
+python-dotenv>=1.0.0
+numpy>=1.21.0
+pillow>=9.0.0
+
+# Existing project dependencies (if needed)
+torch>=1.11.0
+transformers>=4.20.0
+
+# For async operations
+asyncio-mqtt>=0.11.0  # If using MQTT for real-time updates (optional)
+
+# Logging and monitoring (optional but recommended)
+structlog>=22.1.0 
