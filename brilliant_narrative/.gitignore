@@ -1,0 +1,4 @@
+neo4j_data/
+neo4j_logs/
+qdrant_storage/
+.env
