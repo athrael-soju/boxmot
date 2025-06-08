@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+boxmot
+qdrant-client
+opencv-python<5.0.0,>=4.7.0
+torch<3.0.0,>=2.2.1
+torchvision<1.0.0,>=0.17.1
+kafka-python 
